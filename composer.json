@@ -1,5 +1,5 @@
 {
-    "name": "code/scaffold",
+    "name": "chinasc/scaffold",
     "description": "migrate code",
     "type": "library",
     "require": {
