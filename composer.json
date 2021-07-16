@@ -1,0 +1,36 @@
+{
+    "name": "code/scaffold",
+    "description": "migrate code",
+    "type": "library",
+    "require": {
+        "php": ">=7.3",
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chinasc",
+            "email": "523017839@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Scaffold\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "repositories": {
+        "dev_package": {
+            "type": "path",
+            "url": "F:/dev/www/demo/tests/course_2_2/scaffold/src",
+            "options": {
+                "symlink": true
+            }
+        }
+    }
+}
